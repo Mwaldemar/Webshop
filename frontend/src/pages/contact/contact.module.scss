@@ -1,0 +1,9 @@
+@import "../../styles/globalThemes.scss";
+
+.container {
+  background-color: var(--eggWhite);
+
+  @include respond-to(largeDesktop) {
+    font-size: 20px;
+  }
+}
